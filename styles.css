@@ -1,0 +1,231 @@
+.banner {
+    position: fixed;
+    background-color: ivory;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    display: inline-flex;
+    margin-left: 1rem;
+}
+
+#company-name,h2 {
+    color: #1D5D9B;
+}
+
+a {
+    /* text-decoration: none; */
+    color: black;
+}
+
+.logo {
+    display: inline-flex;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.navbar {
+    display: inline-flex;
+    list-style-type: none;
+    gap: 6rem;
+    font-family: sans-serif;
+}
+
+#first-list-item {
+    margin-left: 3rem;
+}
+
+a:hover {
+    text-decoration: none;
+    color: crimson;
+}
+
+main {
+    position: relative;
+    top: 100px;
+    font-family: sans-serif;
+}
+
+#slogan {
+    font-family: serif;
+}
+
+.mission {
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+    max-width: 1310px;
+}
+
+.mission > p {
+    margin-left: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    display: inline-flex;
+}
+
+.products {
+    margin-left: 1rem;
+}
+
+.item {
+    height: 175px;
+    width: 300px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.item > img {
+    height: 100%;
+    width: 100%;
+    border: 3px solid gray;
+    border-radius: 3%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 5px 2px 2px;
+}
+
+.team {
+    margin-left: 1rem;
+}
+
+.team > .container {
+    display: inline-flex;
+}
+
+.item-pic {
+    height: 300px;
+    width: 300px; 
+}
+
+.item-pic > img {
+    height: 100%;
+    width: 100%;
+    border: 3px solid gray;
+    border-radius: 3%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 5px 2px 2px;
+}
+
+.item-description {
+    height: 300px;
+    width: 300px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-description > h1 {
+    margin-left: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.item-description > h2 {
+    margin-left: 1.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.item-description > p {
+    margin-left: 1.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0rem;
+}
+
+@media only screen and (max-width: 1100px) {
+    #first-list-item {
+        margin-left: 0rem;
+    }
+
+    .navbar {
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #second-logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+        position: relative;
+        top: 165px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .item {
+        height: 75%;
+        width: 90%;
+        /* margin-left: 1rem; */
+        margin-bottom: 1rem;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .item-description > h1, .item-description > h2, .item-description > p {
+        margin-left: 0rem;
+        margin-bottom: .25rem;
+    }
+
+    .item-description {
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    .item-pic {
+        height: 400px;
+        width: 300px; 
+    }
+
+    #second-item {
+        margin-left: 0rem;
+    }
+
+    .fourth {
+        margin-left: 0rem;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .third {
+        margin-left: 0rem;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .fourth {
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1320px) {
+    #bored-guy {
+        margin-left: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1279px) {
+    .fourth {
+        margin-left: 0rem;
+    }
+}
